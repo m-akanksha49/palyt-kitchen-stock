@@ -1,4 +1,4 @@
-@'
+
 # Palyt Kitchen Stock System
 
 A small kitchen stock and menu availability application. Kitchen staff manage ingredient stock levels, and the restaurant menu automatically reflects which dishes are available based on stock vs. par levels.
@@ -51,4 +51,4 @@ With more time, I would add clearer handling for incompatible unit types (e.g. t
 ## AI usage
 
 I used an AI assistant to help break this task into implementation steps, discuss edge cases (like ingredient deletion and unit conversion), and review my test coverage. I wrote, ran, and verified the application code and tests myself.
-'@ | Set-Content -Path README.md -Encoding utf8
+
