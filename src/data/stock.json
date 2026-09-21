@@ -1,0 +1,17 @@
+[
+  { "id": "paneer", "name": "Paneer", "quantity": 2, "unit": "kg", "par": 1 },
+  { "id": "tomato", "name": "Tomato", "quantity": 3.1, "unit": "kg", "par": 3 },
+  { "id": "cashews", "name": "Cashews", "quantity": 500, "unit": "g", "par": 300 },
+  { "id": "butter", "name": "Butter", "quantity": 0.5, "unit": "kg", "par": 1 },
+  { "id": "bay-leaves", "name": "Bay Leaves", "quantity": 100, "unit": "g", "par": 50 },
+  { "id": "onion", "name": "Onion", "quantity": 4, "unit": "kg", "par": 2 },
+  { "id": "ginger-garlic-paste", "name": "Ginger Garlic Paste", "quantity": 300, "unit": "g", "par": 150 },
+  { "id": "rice", "name": "Rice", "quantity": 10, "unit": "kg", "par": 3 },
+  { "id": "milk", "name": "Milk", "quantity": 2, "unit": "l", "par": 1 },
+  { "id": "cream", "name": "Cream", "quantity": 200, "unit": "ml", "par": 250 },
+  { "id": "chicken", "name": "Chicken", "quantity": 5, "unit": "kg", "par": 2 },
+  { "id": "capsicum", "name": "Capsicum", "quantity": 1.5, "unit": "kg", "par": 1 },
+  { "id": "chilli-powder", "name": "Chilli Powder", "quantity": 250, "unit": "g", "par": 100 },
+  { "id": "turmeric", "name": "Turmeric", "quantity": 150, "unit": "g", "par": 50 },
+  { "id": "coriander-leaves", "name": "Coriander Leaves", "quantity": 100, "unit": "g", "par": 100 }
+]
