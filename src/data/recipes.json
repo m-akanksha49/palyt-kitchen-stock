@@ -1,0 +1,74 @@
+[
+  {
+    "id": "paneer-butter-masala",
+    "name": "Paneer Butter Masala",
+    "price": 250,
+    "ingredients": [
+      { "ingredient": "paneer", "quantity": 180, "unit": "g" },
+      { "ingredient": "tomato", "quantity": 200, "unit": "g" },
+      { "ingredient": "butter", "quantity": 20, "unit": "g" },
+      { "ingredient": "cream", "quantity": 30, "unit": "ml" }
+    ]
+  },
+  {
+    "id": "kaju-curry",
+    "name": "Kaju Curry",
+    "price": 300,
+    "ingredients": [
+      { "ingredient": "cashews", "quantity": 100, "unit": "g" },
+      { "ingredient": "tomato", "quantity": 150, "unit": "g" },
+      { "ingredient": "onion", "quantity": 100, "unit": "g" }
+    ]
+  },
+  {
+    "id": "cashew-rice",
+    "name": "Cashew Rice",
+    "price": 220,
+    "ingredients": [
+      { "ingredient": "cashews", "quantity": 80, "unit": "g" },
+      { "ingredient": "rice", "quantity": 250, "unit": "g" }
+    ]
+  },
+  {
+    "id": "butter-chicken",
+    "name": "Butter Chicken",
+    "price": 320,
+    "ingredients": [
+      { "ingredient": "chicken", "quantity": 250, "unit": "g" },
+      { "ingredient": "butter", "quantity": 30, "unit": "g" },
+      { "ingredient": "tomato", "quantity": 150, "unit": "g" },
+      { "ingredient": "cream", "quantity": 50, "unit": "ml" }
+    ]
+  },
+  {
+    "id": "chicken-curry",
+    "name": "Chicken Curry",
+    "price": 280,
+    "ingredients": [
+      { "ingredient": "chicken", "quantity": 250, "unit": "g" },
+      { "ingredient": "onion", "quantity": 150, "unit": "g" },
+      { "ingredient": "ginger-garlic-paste", "quantity": 20, "unit": "g" },
+      { "ingredient": "chilli-powder", "quantity": 10, "unit": "g" },
+      { "ingredient": "turmeric", "quantity": 5, "unit": "g" }
+    ]
+  },
+  {
+    "id": "capsicum-masala",
+    "name": "Capsicum Masala",
+    "price": 200,
+    "ingredients": [
+      { "ingredient": "capsicum", "quantity": 200, "unit": "g" },
+      { "ingredient": "onion", "quantity": 100, "unit": "g" },
+      { "ingredient": "tomato", "quantity": 100, "unit": "g" }
+    ]
+  },
+  {
+    "id": "jeera-rice",
+    "name": "Jeera Rice",
+    "price": 150,
+    "ingredients": [
+      { "ingredient": "rice", "quantity": 250, "unit": "g" },
+      { "ingredient": "butter", "quantity": 15, "unit": "g" }
+    ]
+  }
+]
