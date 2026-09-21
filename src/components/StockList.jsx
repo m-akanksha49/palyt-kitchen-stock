@@ -1,9 +1,9 @@
-﻿
-import { useState } from "react";
+﻿import { useState } from "react";
 
 export default function StockList({ stock, onSave, onDelete }) {
   const [editingId, setEditingId] = useState(null);
   const [draft, setDraft] = useState({ quantity: "", par: "" });
+  const [searchTerm, setSearchTerm] = useState("");
 
   function startEdit(item) {
     setEditingId(item.id);
@@ -31,9 +31,19 @@ export default function StockList({ stock, onSave, onDelete }) {
     setEditingId(null);
   }
 
+  const filteredStock = stock.filter((item) =>
+    item.name.toLowerCase().includes(searchTerm.trim().toLowerCase())
+  );
+
   return (
     <div>
       <h2>Kitchen Stock</h2>
+      <input
+        placeholder="Search ingredients..."
+        value={searchTerm}
+        onChange={(e) => setSearchTerm(e.target.value)}
+        style={{ marginBottom: "8px" }}
+      />
       <table border="1" cellPadding="8" style={{ borderCollapse: "collapse" }}>
         <thead>
           <tr>
@@ -44,7 +54,7 @@ export default function StockList({ stock, onSave, onDelete }) {
           </tr>
         </thead>
         <tbody>
-          {stock.map((item) => {
+          {filteredStock.map((item) => {
             const isEditing = editingId === item.id;
             return (
               <tr key={item.id}>
