@@ -10,8 +10,8 @@ function App() {
   const [stock, setStock] = useState(stockData);
   const [recipes] = useState(recipesData);
 
-  function handleEdit(item) {
-    console.log("Edit clicked:", item);
+  function handleSave(updatedItem) {
+    setStock(stock.map((item) => (item.id === updatedItem.id ? updatedItem : item)));
   }
 
   function handleDelete(id) {
@@ -25,7 +25,7 @@ function App() {
 
   return (
     <div>
-      <StockList stock={stock} onEdit={handleEdit} onDelete={handleDelete} />
+      <StockList stock={stock} onSave={handleSave} onDelete={handleDelete} />
       <Menu recipes={recipes} stock={stock} onOrder={handleOrder} />
     </div>
   );
