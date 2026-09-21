@@ -3,7 +3,7 @@
 # Palyt Kitchen Stock System
 
 **Live demo:** https://kitchen-stock-management.netlify.app/
-
+**Video demo:** https://drive.google.com/file/d/1BdlL3rUJgMq9wrX5TZIH5G_7Y8_ceFok/view?usp=drive_link
 
 A small kitchen stock and menu availability application. Kitchen staff manage ingredient stock levels, and the restaurant menu automatically reflects which dishes are available based on stock vs. par levels.
 
