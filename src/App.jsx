@@ -3,6 +3,7 @@ import stockData from "./data/stock.json";
 import recipesData from "./data/recipes.json";
 import StockList from "./components/StockList";
 import Menu from "./components/Menu";
+import { deductIngredients } from "./utils/inventory";
 import "./App.css";
 
 function App() {
@@ -18,7 +19,8 @@ function App() {
   }
 
   function handleOrder(dish) {
-    console.log("Order clicked:", dish);
+    const updatedStock = deductIngredients(dish, stock);
+    setStock(updatedStock);
   }
 
   return (
